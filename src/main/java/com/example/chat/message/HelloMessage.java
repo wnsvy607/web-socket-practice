@@ -1,5 +1,7 @@
 package com.example.chat.message;
 
+import java.io.Serializable;
+
 import lombok.Getter;
 import lombok.Setter;
 
@@ -8,6 +10,9 @@ import lombok.Setter;
 public class HelloMessage {
 
 	String name;
+
+	public HelloMessage() {
+	}
 
 	public HelloMessage(String name) {
 		this.name = name;
